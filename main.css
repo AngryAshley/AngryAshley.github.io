@@ -5,7 +5,7 @@ nav{
     background-color: #1066ef;
 }
 .background-image{
-    background-image: url("./images/html-editor.jpg");
+    background-image: url("/images/html-editor.jpg");
     height: 700px;
     background-attachment: fixed;
     background-position: center;
