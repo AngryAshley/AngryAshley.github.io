@@ -4,7 +4,7 @@ html{
 nav{
     background-color: #1066ef;
 }
-#background-image{
+.background-image{
     background-image: url("/images/html-editor");
     height: 700px;
     background-attachment: fixed;
@@ -16,8 +16,14 @@ aside{
     width: 40%;
     float: right;
     display: block;
+    margin-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px grey;
 }
-aside{
+.aside-slim{
+    width: 15%;
+    float: right;
+    display: block;
     margin-top: 10px;
     background-color: #ffffff;
     box-shadow: 5px 5px 5px grey;
@@ -29,28 +35,39 @@ article{
     margin-top: 10px;
     box-shadow: 5px 5px 5px grey;
 }
+.article-broad{
+    width: 70%;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
 article > p{
     padding: 1px 5px;
 }
-#article-header{
+.article-header{
     background-color: #1066ef;
     padding: 6px 16px;
     color: #ffffff;
     margin-top: 0px;
     text-align: center;
 }
-#article-img-small{
+.article-img-small{
     width: 49%;
     height:49%;
     margin-left: 3px;
     margin-right: -3px;
 }
-#img-small{
+.img-small{
     width: 200px;
     height: 200px;
     margin-left: 3px;
     margin-right: -3px;
     border-style: ridge;
+}
+table{
+    margin: 15px 15px;
+    text-align: center;
 }
 .button{
     background-color: #1066ef;
