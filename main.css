@@ -5,13 +5,12 @@ nav{
     background-color: #1066ef;
 }
 .background-image{
-    /*background-image: url("/images/html-editor");*/
+    background-image: url("/images/html-editor");
     height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: green;
 }
 aside{
     width: 40%;
